@@ -1,0 +1,49 @@
+.aiau-discord-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background: var(--aiau-discord-bg, #5865F2);
+  color: var(--aiau-discord-text, #ffffff);
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 1;
+  transition: transform 0.1s ease, box-shadow 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+  box-shadow: 0 4px 14px rgba(var(--aiau-discord-rgb, 88, 101, 242), 0.35);
+}
+
+.aiau-discord-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(var(--aiau-discord-rgb, 88, 101, 242), 0.45);
+}
+
+.aiau-discord-button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 12px rgba(var(--aiau-discord-rgb, 88, 101, 242), 0.4);
+}
+
+.aiau-discord-button:focus-visible {
+  outline: 2px solid var(--rp-c-brand, #5865F2);
+  outline-offset: 2px;
+}
+
+.aiau-discord-button .icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  font-size: 18px; /* FontAwesomeIcon 用 */
+}
+
+.aiau-discord-button.secondary {
+  background: transparent;
+  color: var(--rp-c-text-1, #ffffff);
+  border-color: var(--aiau-discord-bg, #5865F2);
+}
+
+.aiau-discord-button.secondary:hover {
+  background: rgba(var(--aiau-discord-rgb, 88, 101, 242), 0.12);
+}
+
+
