@@ -2,7 +2,7 @@
 node_modules/
 
 # Builds and caches
-.doc_build/
+doc_build/
 dist/
 build/
 .cache/
@@ -26,3 +26,5 @@ Thumbs.db
 # Env
 .env
 .env.*
+
+
