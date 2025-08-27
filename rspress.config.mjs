@@ -3,6 +3,7 @@ import path from 'node:path';
 
 export default defineConfig({
   root: 'docs',
+  base: '/aiau_site_mvp/',
   lang: 'ja-JP',
   title: 'AIAU',
   description: 'AIエージェントユーザーグループ (AIAU)',
